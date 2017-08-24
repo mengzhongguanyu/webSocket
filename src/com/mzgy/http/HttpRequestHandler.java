@@ -30,6 +30,10 @@ public class HttpRequestHandler extends SimpleChannelInboundHandler<FullHttpRequ
     public HttpRequestHandler (String wsUril){
         this.wsUril = wsUril;
     }
+
+
+
+
     @Override
     protected void channelRead0(ChannelHandlerContext channelHandlerContext, FullHttpRequest fullHttpRequest) throws Exception {
 
